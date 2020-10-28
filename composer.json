@@ -7,7 +7,9 @@
             "email": "sheehan010507@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.1"
+    },
     "autoload": {
         "psr-4": {
             "Demo\\": "./src/Demo"
